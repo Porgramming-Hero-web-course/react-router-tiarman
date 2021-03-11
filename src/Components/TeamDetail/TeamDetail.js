@@ -1,11 +1,8 @@
 import { useEffect, useState } from "react";
-import { Image } from "react-bootstrap";
-import { useHistory, useParams } from "react-router";
+import { useParams } from "react-router";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab, faFacebook, faYoutube, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faYoutube, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import './TeamDetail.css'
-import { Link } from "react-router-dom";
 
 const TeamDetail = () => {
     const { idTeam } = useParams();
